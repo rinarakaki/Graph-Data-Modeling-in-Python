@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graph-data-modeling-in-python"
+version = "0.0.0"
+description = "Graph Data Modeling in Python"
+authors = [
+    { name = "Gary Hutson" },
+    { name = "Matt Jackson" },
+]
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+    "igraph",
+    "neo4j",
+    "networkx",
+]
+
+[project.urls]
+repository = "https://github.com/PacktPublishing/Graph-Data-Modeling-in-Python"
